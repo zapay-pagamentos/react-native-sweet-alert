@@ -1,18 +1,41 @@
 {
-  "name": "react-native-sweet-alert",
-  "version": "3.0.0",
+  "_from": "react-native-sweet-alert",
+  "_id": "react-native-sweet-alert@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ci9DwlJIdzzNHXCpbt/6dcUaLeF+Ei7f4clLXBJpJ3uDeBXNuxjNR+CLqdkKTh3iFpscFqALaVDIBuFs5Ci9cA==",
+  "_location": "/react-native-sweet-alert",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-sweet-alert",
+    "name": "react-native-sweet-alert",
+    "escapedName": "react-native-sweet-alert",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-sweet-alert/-/react-native-sweet-alert-2.1.0.tgz",
+  "_shasum": "5729b8fba22536514bf8818bcdb3609fb0d984d3",
+  "_spec": "react-native-sweet-alert",
+  "_where": "/Users/josh/coding/zapay/mobile-seller",
+  "author": {
+    "name": "Clip-sub"
+  },
+  "bugs": {
+    "url": "https://github.com/Clip-sub/react-native-sweet-alert/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "is-hexcolor": "^1.0.0"
+  },
+  "deprecated": false,
   "description": "SweetAlert native library for React Native",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Clip-sub/react-native-sweet-alert.git"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
+  "homepage": "https://github.com/Clip-sub/react-native-sweet-alert#readme",
   "keywords": [
     "react",
     "react-native",
@@ -21,17 +44,22 @@
     "android",
     "ios"
   ],
-  "author": "Clip-sub",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Clip-sub/react-native-sweet-alert/issues"
-  },
-  "homepage": "https://github.com/Clip-sub/react-native-sweet-alert#readme",
+  "main": "index.js",
+  "name": "react-native-sweet-alert",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
-  "dependencies": {
-    "is-hexcolor": "^1.0.0"
-  }
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clip-sub/react-native-sweet-alert.git"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "version": "2.1.0"
 }

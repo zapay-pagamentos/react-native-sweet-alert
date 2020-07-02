@@ -27,6 +27,8 @@ const SweetAlert = {
     Native.showAlertWithOptions(options ? options : DEFAULT_OPTIONS, callback)
   },
   dismissAlert: () => Native.hideSweetAlert(),
+  setTitleText: (text) => Native.setTitleText(text),
+  setContentText: (text) => Native.setContentText(text),
 };
 
 export default SweetAlert;

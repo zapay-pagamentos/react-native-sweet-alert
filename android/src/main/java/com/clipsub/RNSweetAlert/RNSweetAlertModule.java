@@ -82,6 +82,16 @@ public class RNSweetAlertModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
+  public void setTitleText(String title) {
+    sweetAlertDialog.setTitleText(title);
+  }
+
+  @ReactMethod
+  public void setContentText(String text) {
+    sweetAlertDialog.setContentText(text);
+  }
+
+  @ReactMethod
   public void changeAlertType(String alertType) {
     switch (alertType) {
       case "normal":
